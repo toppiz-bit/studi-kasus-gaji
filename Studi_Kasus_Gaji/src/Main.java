@@ -7,7 +7,7 @@ public class Main {
         // Polymorphism: referensi Pegawai berisi objek dari subclass berbeda.
         Pegawai[] daftarPegawai = {
             new PegawaiTetap("Topan", 4000000L, 1000000L),
-            new PegawaiKontrak("Saqdad", 160, 25000L)
+            new PegawaiKontrak("Random", 160, 25000L)
         };
 
         System.out.println("=== PERHITUNGAN GAJI PEGAWAI ===");
