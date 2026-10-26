@@ -1,8 +1,8 @@
 # Studi Kasus OOP: Perhitungan Gaji Pegawai
 
 ## Anggota kelompok
-- Anggota 1: isi nama dan NIM.
-- Anggota 2: isi nama dan NIM.
+- Anggota 1: Topan Izazih NIM F1D02510135.
+- Anggota 2: Tidak Ada
 
 ## Permasalahan
 Sebuah perusahaan memiliki pegawai tetap dan pegawai kontrak. Semua pegawai mempunyai nama, tetapi aturan perhitungan gajinya berbeda. Dalam contoh sederhana ini, gaji pegawai tetap adalah gaji pokok ditambah tunjangan, sedangkan gaji pegawai kontrak adalah jam kerja dikalikan upah per jam. Program menggunakan abstract class agar data dan perilaku umum dapat digunakan bersama, sementara rumus gaji ditentukan setiap subclass.
