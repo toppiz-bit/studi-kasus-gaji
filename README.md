@@ -66,7 +66,7 @@ Andi: 4.000.000 + 1.000.000 = 5.000.000.
 Budi: 160 jam x 25.000 = 4.000.000.
 Angka merupakan data contoh. Program difokuskan pada konsep OOP; perhitungan pajak dan validasi input belum dimasukkan.
 
-## Pembahasan
+## Bahan Diskusi Berdua
 1. Mengapa Pegawai tidak langsung dibuat objeknya? Karena Pegawai masih abstract dan rumus gajinya belum ditentukan.
 2. Apa yang terjadi jika subclass konkret tidak mengimplementasikan hitungGaji()? Kompilasi gagal.
 3. Apa perbedaan inheritance dan polymorphism pada contoh ini? Inheritance membentuk hubungan turunan dari Pegawai; polymorphism memungkinkan referensi Pegawai menjalankan implementasi hitungGaji() yang berbeda.
