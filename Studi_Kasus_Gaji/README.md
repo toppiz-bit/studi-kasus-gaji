@@ -55,10 +55,10 @@ Jika memakai VS Code, buka folder proyek dan jalankan Main.java menggunakan duku
 ## Hasil program
 ```text
 === PERHITUNGAN GAJI PEGAWAI ===
-Nama: Andi
+Nama: Topan
 Gaji: Rp5.000.000
 
-Nama: Budi
+Nama: Saqdad
 Gaji: Rp4.000.000
 ```
 
