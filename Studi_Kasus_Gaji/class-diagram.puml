@@ -1,0 +1,30 @@
+@startuml
+skinparam classAttributeIconSize 0
+abstract class Pegawai {
+  - nama : String
+  + Pegawai(nama : String)
+  + getNama() : String
+  {abstract} + hitungGaji() : long
+  + tampilkanInfo() : void
+}
+class PegawaiTetap {
+  - gajiPokok : long
+  - tunjangan : long
+  + PegawaiTetap(nama : String, gajiPokok : long, tunjangan : long)
+  + hitungGaji() : long
+}
+class PegawaiKontrak {
+  - jamKerja : int
+  - upahPerJam : long
+  + PegawaiKontrak(nama : String, jamKerja : int, upahPerJam : long)
+  + hitungGaji() : long
+}
+class Main {
+  {static} + main(args : String[]) : void
+}
+Pegawai <|-- PegawaiTetap
+Pegawai <|-- PegawaiKontrak
+Main ..> Pegawai : uses
+Main ..> PegawaiTetap : creates
+Main ..> PegawaiKontrak : creates
+@enduml
