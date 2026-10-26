@@ -66,26 +66,8 @@ Andi: 4.000.000 + 1.000.000 = 5.000.000.
 Budi: 160 jam x 25.000 = 4.000.000.
 Angka merupakan data contoh. Program difokuskan pada konsep OOP; perhitungan pajak dan validasi input belum dimasukkan.
 
-## Bahan diskusi berdua
+## Bahan diskusi
 1. Mengapa Pegawai tidak langsung dibuat objeknya? Karena Pegawai masih abstract dan rumus gajinya belum ditentukan.
 2. Apa yang terjadi jika subclass konkret tidak mengimplementasikan hitungGaji()? Kompilasi gagal.
 3. Apa perbedaan inheritance dan polymorphism pada contoh ini? Inheritance membentuk hubungan turunan dari Pegawai; polymorphism memungkinkan referensi Pegawai menjalankan implementasi hitungGaji() yang berbeda.
 4. Bagaimana menambah jenis pegawai baru? Buat subclass Pegawai, implementasikan hitungGaji(), lalu tambahkan objeknya ke daftarPegawai.
-
-## Cara mengumpulkan
-1. Isi identitas kedua anggota dan diskusikan kode bersama.
-2. Buat repository GitHub dengan visibilitas Public.
-3. Unggah isi folder proyek ini (src, README.md, class-diagram.png, dan class-diagram.puml) lalu lakukan commit. Hindari hanya mengunggah ZIP; tampilkan kode yang bisa dibaca langsung.
-4. Buka halaman commit yang memuat kode tugas, lalu salin URL halaman tersebut. Polanya: https://github.com/USERNAME/NAMA-REPO/commit/HASH-COMMIT.
-5. Salah satu anggota mengirim di forum. Subject: `3D_NIM1_NIM2` (ganti dengan NIM asli).
-6. Pada Message, sisipkan gambar class-diagram.png agar tampil di pesan, lalu tulis link commit repository publik. Pastikan link dapat dibuka tanpa login.
-
-Contoh isi Message (sesuaikan bagian dalam tanda kurung siku):
-
-Studi kasus: Perhitungan Gaji Pegawai.
-Anggota: [Nama 1 - NIM 1] dan [Nama 2 - NIM 2].
-Program menggunakan abstract class Pegawai dengan subclass PegawaiTetap dan PegawaiKontrak. Inheritance diterapkan melalui extends, sedangkan polymorphism ditunjukkan melalui pemanggilan hitungGaji() dengan implementasi yang berbeda sesuai objeknya. Penjelasan kode tersedia pada README dan komentar.
-[Sisipkan gambar class-diagram.png di sini]
-Link commit: [tempel URL commit asli di sini].
-
-Link commit pada petunjuk ini hanya pola, bukan link repository yang sudah dibuat.
