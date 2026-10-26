@@ -8,7 +8,7 @@
 Sebuah perusahaan memiliki pegawai tetap dan pegawai kontrak. Semua pegawai mempunyai nama, tetapi aturan perhitungan gajinya berbeda. Dalam contoh sederhana ini, gaji pegawai tetap adalah gaji pokok ditambah tunjangan, sedangkan gaji pegawai kontrak adalah jam kerja dikalikan upah per jam. Program menggunakan abstract class agar data dan perilaku umum dapat digunakan bersama, sementara rumus gaji ditentukan setiap subclass.
 
 ## Class diagram
-<img width="1900" height="1090" alt="Image" src="https://github.com/user-attachments/assets/93e2346b-5dcb-4cca-ba69-628683c5c7a7" />
+![Class diagram](class-diagram.png)
 
 Notasi: `+` public, `-` private. Nama class/method yang ditulis miring berarti abstract. Panah segitiga kosong menunjuk superclass.
 
