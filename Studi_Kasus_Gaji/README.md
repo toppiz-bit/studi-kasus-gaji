@@ -58,7 +58,7 @@ Jika memakai VS Code, buka folder proyek dan jalankan Main.java menggunakan duku
 Nama: Topan
 Gaji: Rp5.000.000
 
-Nama: Saqdad
+Nama: Random
 Gaji: Rp4.000.000
 ```
 
